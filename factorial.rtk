@@ -1,0 +1,13 @@
+#!r6rs
+(import (library (rnrs base (6)))
+        (library (rnrs io simple (6))))
+
+(define (square x) (* x x))
+
+(square 5)
+
+(define (fact n)
+  (cond ((< n 2) n)
+        (else (* n (fact (- n 1))))))
+        
+  
