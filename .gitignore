@@ -1,0 +1,2 @@
+# ignore temp files that DrRacket makes (files ending in ~)
+*.*~
